@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "698626013249",
+    "firebase_url": "https://ahiodent.firebaseio.com",
+    "project_id": "ahiodent",
+    "storage_bucket": "ahiodent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698626013249:android:41f2427de7982205",
+        "android_client_info": {
+          "package_name": "com.example.sendy.ahirodent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698626013249-51g69ikafcm78s0546dusv0ca4l2n1bc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7nuI1yZioBYOH7zVlwqyA-ByKNplKloc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

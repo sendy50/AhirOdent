@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="10"
+    android:background="@drawable/edittext"
+    android:orientation="vertical"
+    tools:context="com.example.sendy.ahirodent.ContactUsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:elevation="8dp"
+        android:background="#29263e"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/user_profile_photo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="0dp"
+                android:background="@drawable/background"
+                android:elevation="5dp"
+                android:layout_marginLeft="12dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sandesh1" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.6"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Dr. Sandesh Ahir"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_gravity="end"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(B.D.S) Mum"
+                android:textSize="13dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_gravity="end"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rg.no. : A-23316"
+                android:textSize="13dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_gravity="end"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#f4f0f0"
+        android:layout_weight="7">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:padding="3dp"
+                    android:textColor="#26293e" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background"
+                    android:padding="3dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ProfileText11"
+                        android:background="#26293e"
+                        android:padding="5dp"
+                        android:textSize="14dp"
+                        android:textColor="#fff" />
+
+                    <LinearLayout
+                        android:id="@+id/mapll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Show on Map..."
+                            android:background="#00ffffff"
+                            android:padding="5dp"
+                            android:elevation="5dp"
+                            android:layout_gravity="end"
+                            android:layout_weight="3.5"
+                            android:textSize="14dp"
+                            android:textColor="#3f4b9c" />
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="30dp"
+                            android:layout_weight="1.5"
+                            android:background="#26293e"
+                            android:elevation="5dp"
+                            android:padding="4dp"
+                            android:src="@drawable/location"/>
+
+
+                        </LinearLayout>
+
+
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="30dp"-->
+                        <!--android:layout_height="30dp" />-->
+
+                </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="3dp"
+                        android:textColor="#26293e" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background"
+                    android:padding="3dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/callintocontactus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="9699664106"
+                        android:padding="8dp"
+                        android:textSize="15sp"
+                        android:textColor="#29263e" />
+
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:padding="3dp"
+                    android:textColor="#26293e" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:padding="3dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ahirodent@gmail.com"
+                    android:elevation="5dp"
+                    android:padding="8dp"
+                    android:textSize="15sp"
+                    android:textColor="#26293e" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Visit Us"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15sp"
+                    android:padding="3dp"
+                    android:textColor="#26293e" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:padding="3dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/website"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="www.ahirodent.webs.com"
+                    android:elevation="5dp"
+                    android:padding="8dp"
+                    android:textSize="15sp"
+                    android:textColor="#26293e" />
+                </LinearLayout>
+
+               <!-- <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="www.Facebook.com/ahirOdent"
+                    android:layout_marginTop="7dp"
+                    android:elevation="5dp"
+                    android:background="#3f4b9c"
+                    android:padding="5dp"
+                    android:textSize="14dp"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="http://www.justdial.com/Mumbai/Ahirodent-Complete-Oral-Care-Clinic-Vasai-Road-West/022PXX22-XX22-140412122911-L2C5_BZDET"
+                    android:layout_marginTop="7dp"
+                    android:elevation="5dp"
+                    android:background="#3f4b9c"
+                    android:padding="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="14dp"
+                    android:textColor="#fff" />-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="5"
+                    android:padding="13dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/background"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/fb_icon"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/faccebook"
+                        android:layout_gravity="center"/>
+
+                    <ImageView
+                        android:id="@+id/justdial_icon"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/insta"
+                        android:layout_gravity="center"/>
+
+                    <ImageView
+                        android:id="@+id/likedin_icon"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/linked_in"
+                        android:layout_gravity="center"/>
+
+                    <ImageView
+                        android:id="@+id/twiter_icon"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/twitter"
+                        android:layout_gravity="center"/>
+
+                    <ImageView
+                        android:id="@+id/insta_icon"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/insta"
+                        android:layout_gravity="center"/>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.sendy.ahirodent.WayUsActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#26293e"
+            android:elevation="4dp"
+            android:textAlignment="center"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:orientation="horizontal">
+
+             //1st
+            <LinearLayout
+            android:layout_width="290dp"
+            android:layout_height="match_parent"
+            android:weightSum="10"
+            android:orientation="vertical"
+            android:background="@android:drawable/alert_light_frame">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:paddingTop="15dp"
+                android:background="#29263e"
+                android:src="@drawable/whyus_one"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:padding="15dp"
+                android:gravity="center_vertical"
+                android:textColor="#fff"
+                android:background="#29263e"
+                android:textSize="15sp"
+                android:text="@string/whyus_one"
+                android:id="@+id/textView" />
+
+        </LinearLayout>
+
+             //second
+            <LinearLayout
+            android:layout_width="290dp"
+            android:layout_height="match_parent"
+            android:weightSum="10"
+            android:orientation="vertical"
+            android:background="@android:drawable/alert_light_frame">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4.5"
+                android:background="#29263e"
+                android:src="@drawable/whyus_two"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5.5"
+                    android:padding="15dp"
+                    android:gravity="start"
+                    android:textColor="#fff"
+                    android:background="#29263e"
+                    android:textSize="15sp"
+                    android:text="@string/whyus_two"/>
+
+            </LinearLayout>
+
+             //third
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="match_parent"
+                android:weightSum="10"
+                android:orientation="vertical"
+                android:background="@android:drawable/alert_light_frame">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    android:background="#29263e"
+                    android:src="@drawable/wayus_threee"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    android:padding="15dp"
+                    android:gravity="start"
+                    android:textColor="#fff"
+                    android:background="#29263e"
+                    android:textSize="15sp"
+                    android:text="@string/whyus_three"
+                    android:id="@+id/textView3" />
+
+            </LinearLayout>
+
+            //fourth
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="match_parent"
+                android:weightSum="10"
+                android:orientation="vertical"
+                android:background="@android:drawable/alert_light_frame">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    android:background="#29263e"
+                    android:src="@drawable/whyus_three"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    android:padding="15dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#fff"
+                    android:background="#29263e"
+                    android:textSize="15sp"
+                    android:text="@string/whyus_four"/>
+
+            </LinearLayout>
+
+            //five
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="match_parent"
+                android:weightSum="10"
+                android:orientation="vertical"
+                android:background="@android:drawable/alert_light_frame">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    android:background="#29263e"
+                    android:src="@drawable/wayus_fivvve"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5"
+                    android:padding="15dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#fff"
+                    android:background="#29263e"
+                    android:textSize="13sp"
+                    android:text="@string/whyus_five"
+                    android:id="@+id/textView5" />
+            </LinearLayout>
+
+             //six
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="match_parent"
+                android:weightSum="10"
+                android:orientation="vertical"
+                android:background="@android:drawable/alert_light_frame">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4.5"
+                    android:src="@drawable/wayus_six"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5.5"
+                    android:padding="15dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#fff"
+                    android:background="#29263e"
+                    android:textSize="15sp"
+                    android:text="@string/whyus_six"/>
+
+            </LinearLayout>
+
+            //seven
+            <LinearLayout
+            android:layout_width="290dp"
+            android:layout_height="match_parent"
+            android:weightSum="10"
+            android:orientation="vertical"
+            android:background="@android:drawable/alert_light_frame">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6.2"
+                android:src="@drawable/wayus_seven"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:padding="15dp"
+                android:gravity="center_vertical"
+                android:textColor="#fff"
+                android:background="#29263e"
+                android:textSize="13sp"
+                android:text="@string/whyus_seven"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </HorizontalScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

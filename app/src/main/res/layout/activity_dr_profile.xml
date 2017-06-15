@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.example.sendy.ahirodent.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:elevation="8dp"
+        android:background="#29263e"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1.1">
+
+            <ImageView
+                android:id="@+id/user_profile_photo"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:padding="0dp"
+                android:background="@drawable/background"
+                android:elevation="5dp"
+                android:layout_marginLeft="12dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sandesh1" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Dr. Sandesh Ahir"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_gravity="end"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(B.D.S) Mum"
+                android:textSize="13dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_gravity="end"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rg.no. : A-23316"
+                android:textSize="13dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_gravity="end"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:background="@drawable/edittext"
+        android:layout_weight="7">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dr_profe_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ProfileText"
+                    android:background="@drawable/background"
+                    android:textSize="18sp"
+                    android:padding="13dp"
+                    android:textColor="#26293e" />
+
+
+                <TextView
+                    android:id="@+id/dr_profe_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ProfileText1"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background"
+                    android:padding="15dp"
+                    android:textSize="18sp"
+                    android:textColor="#26293e" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/ocarelink"
+        android:weightSum="2"
+        android:background="#26293e"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.79"
+            android:layout_height="wrap_content"
+            android:text="PANEL DENTIST for OCARE DENTAL INSURANCE "
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"
+            android:textColor="#17e775" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:padding="5dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/aerro"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>

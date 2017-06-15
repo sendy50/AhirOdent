@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#f4f1f1"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10.1"
+        android:elevation="5dp"
+        android:background="@drawable/background"
+        android:layout_height="180dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:background="#26293e"
+            android:layout_weight="2.4">
+
+            <TextView
+                android:id="@+id/a_list_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="25 March 2016"
+                android:textSize="22dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:textColor="#fff"
+                android:layout_weight="1.5"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:layout_weight="0.9">
+
+                <TextView
+                    android:id="@+id/today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yesterday"
+                    android:textSize="18dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dp"
+                    android:textColor="#fff"
+                    android:background="#ae2c35" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:gravity="center_vertical"
+            android:layout_weight="4.7">
+
+            <com.github.pavlospt.roundedletterview.RoundedLetterView
+                android:id="@+id/a_list_pic"
+                android:layout_width="63dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center_vertical"
+                app:rlv_backgroundColorValue="@android:color/background_dark"
+                app:rlv_titleColor="@android:color/white"
+                android:layout_marginLeft="15dp"
+                app:rlv_titleSize="30dp"
+                app:rlv_titleText="A" />
+
+
+            <TextView
+                android:id="@+id/a_list_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="11:00 AM"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#26293e"
+                android:paddingRight="7dp"
+                android:layout_weight="2" />
+
+            <ImageView
+                android:id="@+id/a_list_call"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:padding="10dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/background"
+                android:src="@drawable/contactus"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:layout_weight="3">
+
+            <TextView
+                android:id="@+id/a_list_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sanjay Hadiya"
+                android:textSize="25sp"
+                android:textColor="#26293e"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_gravity="start"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="2">
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.example.sendy.ahirodent.DrActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.4"
+        android:weightSum="3"
+        android:background="#29263e"
+        android:padding="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|bottom"
+            android:orientation="vertical">
+
+            <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                android:id="@+id/circularProgressBar1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                app:cpb_background_progressbar_color="#c4c9f7"
+                app:cpb_background_progressbar_width="5dp"
+                app:cpb_progressbar_color="#1f17b1"
+                app:cpb_progressbar_width="15dp" />
+
+            <TextView
+                android:id="@+id/tvv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#06f96e"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="0/10"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                android:text="Upcoming Appointments"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|bottom"
+            android:orientation="vertical">
+
+            <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                android:id="@+id/circularProgressBar2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                app:cpb_background_progressbar_color="#efb9ef"
+                app:cpb_background_progressbar_width="5dp"
+                app:cpb_progressbar_color="#a854d4"
+                app:cpb_progressbar_width="15dp" />
+
+            <TextView
+                android:id="@+id/tvv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0/10"
+                android:textAlignment="center"
+                android:textColor="#06f96e"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Today's Appointments"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|bottom"
+            android:orientation="vertical">
+
+            <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                android:id="@+id/circularProgressBar3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                app:cpb_background_progressbar_color="#ffe3cd"
+                app:cpb_background_progressbar_width="5dp"
+                app:cpb_progressbar_color="#f47236"
+                app:cpb_progressbar_width="15dp" />
+
+            <TextView
+                android:id="@+id/tvv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#06f96e"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="0/10"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                android:text="panding Appointments"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragmentll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/edittext"
+        android:orientation="vertical"
+        android:layout_weight="6.6">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:weightSum="2"
+            android:layout_weight="2.8"
+            android:padding="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:paddingTop="25dp"
+                android:gravity="center_horizontal"
+                android:paddingLeft="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/iv_dr_profile"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/doctorrr"
+                    android:background="@drawable/background"
+                    app:civ_border_color="#111"
+                    app:civ_border_width="1dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#1beda4"
+                    app:civ_shadow_radius="10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MY PROFILE"
+                    android:textSize="15dp"
+                    android:paddingTop="5dp"
+                    android:textColor="#26293e"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:paddingTop="25dp"
+                android:paddingRight="25dp"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/iv_dr_appointment"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/appointmentss"
+                    android:background="@drawable/background"
+                    android:gravity="center"
+                    app:civ_border_color="#111"
+                    app:civ_border_width="1dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#1beda4"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APPOINTMENTS"
+                    android:textSize="15dp"
+                    android:paddingTop="5dp"
+                    android:textColor="#26293e"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:weightSum="2"
+            android:gravity="center_vertical"
+            android:layout_weight="2.8"
+            android:padding="5dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:paddingLeft="25dp"
+                android:paddingBottom="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/iv_dr_all_patient"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/patient"
+                    android:background="@drawable/background"
+                    app:civ_border_color="#111"
+                    app:civ_border_width="1dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#1beda4"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ALL PATIENT"
+                    android:textSize="15dp"
+                    android:paddingTop="5dp"
+                    android:textColor="#26293e"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:paddingRight="25dp"
+                android:paddingBottom="25dp"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/iv_dr_members"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/memberss"
+                    android:gravity="center"
+                    app:civ_border_color="#111"
+                    android:background="@drawable/background"
+                    app:civ_border_width="1dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#1beda4"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MEMBERS"
+                    android:textSize="15dp"
+                    android:paddingTop="5dp"
+                    android:textColor="#26293e"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:weightSum="2"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnbackground"
+                android:text="Create Event"
+                android:padding="10dp"
+                android:elevation="5dp"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

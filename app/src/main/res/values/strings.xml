@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">AhirOdent</string>
+    <string name="facebook_app_id">658521030962327</string>
+    <string name="title_activity_patient">PatientActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="prompt">Select gender</string>
+
+    <string name="ProfileText">\t Dr Sandesh Ahir is practicing as a Dental Surgeon since 2012. He has a well-equipped clinic with the latest technology instruments and infrastructure and is one of the best in the city.
+    </string>
+
+    <string name="ProfileText1" translatable="false">\t Dr Sandesh Ahir received his formal dental education from Terna Dental college, Nerul, Navi Mumbai. He has got advanced training in comprehensive restorative and cosmetic dentistry and implantology. He is active member of Indian Dental Association. He has updated his knowledge constantly over the years by attending all the Continuing Education Program conducted by IDA which have provided him greater skills and exceptional expertise in the latest dental procedures and technology.
+         </string>
+
+    <string name="ProfileText2" translatable="false">\t I believe in excellence and have dedicated myself, my talents and my creative
+abilities to assure the successful accomplishment of any company goals. My positive
+attitude and willingness to give 100% makes me a valuable asset to any organization
+that would employ me. I am confident that my skills will be an asset and have a
+favorable impact in your organization.</string>
+
+    <string name="ProfileText11">3, Vaikunth  Darshan, Opp. Sai nagar Ground, Sai Nagar,  Ambadi Road, Vasai Road(W). 401202.
+    </string>
+
+    <string name="clubstring1"> Be a Proud Member of our (ACFC) AhirOdents Cavity Free Club and avail the exclusive benefit of FREE CHECKUP AND CONSULTATION on every visit.
+    </string>
+
+    <string name="clubstring2"> Just visit the link below and put your valuable review on our Profile and a Lovely Like.
+    </string>
+    <string name="whyus_two">Quality over Quantity - We prefer to deliver high quality care to a limited number of patients a day than dilute the quality of care by taking in more patients a day.</string>
+    <string name="whyus_one">Friendly environment, calm and soothing atmosphere of operating area. A unique approach towards anxious and apprehensive patients.</string>
+    <string name="whyus_three">Strict Sterilization Protocol - We understand the dangers of cross infection. So we strictly adhere to the international protocol of infection control and sterilization to protect you from cross infection.</string>
+    <string name="whyus_four">A picture is worth a thousand words. Our patients love our Intra oral camera – you get to see first hand and up close the state of your teeth, including any problems such as cracked teeth, decay, worn-out or defective fillings, bleeding gums and plaque.</string>
+    <string name="whyus_five">RVG - digital radiovisiography is the latest X-ray technology in dentistry.
+            Reduced radiation of the patient compared with classic X-ray up to 80%
+            Faster imaging without X-ray film and developing images
+            Immediate imaging on the computer screen
+            High quality of the digital imaging
+            Saving images in the patient file</string>
+    <string name="whyus_six">Metal free ZIRCONIA Crowns And Bridges.
+            Natural appearance
+            High-precision fitting
+            Durability
+            Metal free and hypo-allergenic</string>
+    <string name="whyus_seven">Tooth coloured Composite fillings instead of old black colored Silver Amalgam filling. No acid etching for tooth coloured fillings. No silver cones in Root Canal Treatment.</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="title_activity_create_event">Event</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Create Appointments</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>

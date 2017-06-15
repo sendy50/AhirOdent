@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:elevation="5dp"
+    android:padding="10dp"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="90dp">
+
+    <LinearLayout
+        android:id="@+id/lll"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:elevation="5dp"
+        android:layout_height="70dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:layout_weight="2.5">
+
+            <!--<com.mikhaellopez.circularimageview.CircularImageView-->
+            <!--android:id="@+id/p_list_pic"-->
+            <!--android:layout_width="60dp"-->
+            <!--android:layout_height="58dp"-->
+            <!--android:background="#29263e"-->
+            <!--app:civ_border_color="#111"-->
+            <!--app:civ_border_width="1dp"-->
+            <!--app:civ_shadow="true"-->
+            <!--app:civ_shadow_radius="10"-->
+            <!--app:civ_shadow_color="#111"/>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/p_list_pic"-->
+            <!--android:textColor="#fff"-->
+            <!--android:textSize="30dp"-->
+            <!--android:gravity="center_horizontal|center_vertical"-->
+            <!--android:text="A"-->
+            <!--android:background="@drawable/background"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textAlignment="center"-->
+            <!--android:layout_width="56dp"-->
+            <!--android:layout_height="56dp"-->
+            <!--/>-->
+
+            <com.github.pavlospt.roundedletterview.RoundedLetterView
+                android:id="@+id/p_list_pic"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                app:rlv_backgroundColorValue="@android:color/background_dark"
+                app:rlv_titleColor="@android:color/white"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                app:rlv_titleSize="30dp"
+                app:rlv_titleText="A" />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7.5"
+            android:padding="5dp"
+            android:background="@drawable/background"
+            android:weightSum="7.5">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="5.5">
+
+                <TextView
+                    android:id="@+id/p_list_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sanjay Hadiya"
+                    android:textSize="20dp"
+                    android:singleLine="true"
+                    android:textColor="#26293e"
+                    android:textStyle="bold"
+                    android:paddingRight="7dp"
+                    android:layout_gravity="start"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="2">
+
+                <ImageView
+                    android:id="@+id/p_list_call"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:padding="10dp"
+                    android:background="@drawable/background"
+                    android:src="@drawable/contactus"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

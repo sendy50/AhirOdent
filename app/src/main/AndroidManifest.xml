@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.sendy.ahirodent">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/filelogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup,android:icon">
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".AppontmentActivity" />
+        <activity android:name=".DrProfileActivity" />
+        <activity android:name=".GalleryActivity" />
+        <activity android:name=".ContactUsActivity" />
+        <activity android:name=".DrActivity" />
+        <activity android:name=".ShowAppointmentActivity" />
+        <activity android:name=".ShowAllPatientsActivity" />
+        <activity android:name=".ShowMemberActivity" />
+        <activity android:name=".PatientProfileActivity" />
+        <activity android:name=".TreatmentActivity" />
+        <activity android:name=".ShowTreatmentActivity" />
+        <activity android:name=".PaatientActivity" />
+        <activity android:name=".CavityClubActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:hardwareAccelerated="false">
+
+            <!--  -->
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SymptomsActivity" />
+        <activity android:name=".CredentialsActivity" />
+        <activity android:name=".WayUsActivity" />
+        <activity android:name=".MemberCertificateActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".SendyActivity" />
+        <activity
+            android:name=".CreateEventActivity"
+            android:label="@string/title_activity_create_event"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".EventActivity" />
+
+        <service android:name=".Services.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".ShowAppointments"></activity>
+    </application>
+
+</manifest>

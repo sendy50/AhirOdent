@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="55dp"
+    android:background="#00ffffff"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:paddingBottom="70dp">
+
+                <ImageView
+                    android:id="@+id/goProDialogImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:padding="0.8dp"
+                    android:src="@drawable/dialoge" />
+
+        </LinearLayout>
+
+</LinearLayout>

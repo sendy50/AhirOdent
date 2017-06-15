@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:elevation="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/llll"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:layout_margin="5dp"
+        android:background="@drawable/background"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="3">
+
+            <TextView
+                android:id="@+id/event_ttl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Title"
+                android:textSize="15dp"
+                android:background="#26293e"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:layout_gravity="start"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llevent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="7">
+
+            <TextView
+                android:id="@+id/event_msg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="free of appointment and Check up "
+                android:textSize="18sp"
+                android:textColor="#26293e"
+                android:background="#00ffffff"
+                android:padding="10dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#00cdcfd2"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/event_startdate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Start Date: 10/03/2017 "
+                android:textSize="12dp"
+                android:gravity="start"
+                android:textColor="#37bf1b"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/event_lastdate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="End Date: 10/03/2017 "
+                android:textSize="12sp"
+                android:textColor="#ef0e1d"
+                android:gravity="end"
+                android:layout_weight="1" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

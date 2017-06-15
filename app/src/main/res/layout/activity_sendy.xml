@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#29263e">
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#00ffffff"-->
+        <!--android:weightSum="8"-->
+        <!--android:orientation="vertical"-->
+        <!--android:gravity="bottom">-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/layy"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:background="#00ffffff"-->
+        <!--android:gravity="bottom|center_horizontal"-->
+        <!--android:layout_weight="2">-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/user_profile_photooo"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:background="@drawable/background"-->
+            <!--android:elevation="5dp"-->
+            <!--android:src="@drawable/sendy"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:cropToPadding="false"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:layout_marginBottom="5dp" />-->
+
+    <!--</LinearLayout>-->
+
+
+    <LinearLayout
+        android:id="@+id/lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:weightSum="8.8">
+
+        <RelativeLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.8"
+            android:background="@drawable/background"
+            android:elevation="4dp"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/user_profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Sanjay hadiya"
+                android:textColor="#29263e"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_profile_short_bio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_profile_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Android Application Developer"
+                android:textColor="#29263e"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4.3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+               android:layout_weight="3"
+                android:background="@drawable/edittext"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="100">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="80"
+                        android:text="7567294785"
+                        android:textColor="#29263e"
+                        android:textSize="20dp" />
+
+                    <ImageView
+                        android:id="@+id/callsendy"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="20"
+                        android:padding="5dp"
+                        android:src="@drawable/call" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="100">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="80"
+                        android:text="hsanjay500@gmail.com"
+                        android:textColor="#29263e"
+                        android:textSize="20dp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="20"
+                        android:padding="5dp"
+                        android:src="@drawable/editprofile" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="100">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="20"
+                        android:padding="5dp"
+                        android:src="@drawable/github" />
+
+                    <TextView
+                        android:id="@+id/githubsendy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="80"
+                        android:text="www.github.com/sendy50"
+                        android:textColor="#2f31a6"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.7"
+            android:background="@drawable/edittext"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="100">
+
+            <ImageView
+                android:id="@+id/fbsendy"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="20"
+                android:padding="5dp"
+                android:src="@drawable/faccebook" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="20"
+                android:padding="5dp"
+                android:src="@drawable/twitter" />
+
+            <ImageView
+                android:id="@+id/instasendy"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="20"
+                android:padding="5dp"
+                android:src="@drawable/insta" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="20"
+                android:padding="5dp"
+                android:src="@drawable/pinterest" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="20"
+                android:padding="5dp"
+                android:src="@drawable/linked_in" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+<!--</LinearLayout>-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/user_profile_photooo"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:background="@drawable/background"-->
+    <!--android:elevation="5dp"-->
+    <!--android:src="@drawable/sendy"-->
+    <!--android:scaleType="centerCrop"-->
+    <!--android:cropToPadding="false"-->
+    <!--android:adjustViewBounds="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+
+    <ImageButton
+        android:id="@+id/user_profile_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/background"
+        android:elevation="5dp"
+        android:src="@drawable/sendy"
+        android:scaleType="centerCrop"
+        android:layout_above="@id/lay"
+        android:cropToPadding="false"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="-30dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

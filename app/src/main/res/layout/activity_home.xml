@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+</LinearLayout>
+
+
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:background="#00ffffff"-->
+        <!--android:weightSum="8"-->
+        <!--android:orientation="vertical"-->
+        <!--android:gravity="bottom"-->
+        <!--tools:layout_constraintTop_creator="1"-->
+        <!--tools:layout_constraintRight_creator="1"-->
+        <!--tools:layout_constraintBottom_creator="1"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--tools:layout_constraintLeft_creator="1"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginRight="8dp">-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/layy"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:background="#00ffffff"-->
+            <!--android:gravity="bottom|center_horizontal"-->
+            <!--android:layout_weight="2">-->
+
+            <!--<ImageButton-->
+                <!--android:id="@+id/user_profile_photooo"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:background="@drawable/background"-->
+                <!--android:elevation="5dp"-->
+                <!--android:src="@drawable/sendy"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:cropToPadding="false"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:layout_marginBottom="5dp" />-->
+
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/lay"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:weightSum="7"-->
+            <!--android:layout_weight="6"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/profile_layout"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="2.5"-->
+                <!--android:padding="5dp"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:background="@drawable/btnbackground"-->
+                <!--android:elevation="4dp">-->
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/user_profile_name"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:text="Sanjay hadiya"-->
+                    <!--android:textColor="#fff"-->
+                    <!--android:textSize="24sp"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/user_profile_short_bio"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_below="@+id/user_profile_name"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:text="Android Application Developer"-->
+                    <!--android:textColor="#fff"-->
+                    <!--android:textSize="14sp" />-->
+
+
+            <!--</RelativeLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="4.5"-->
+                <!--android:layout_below="@+id/profile_layout"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="0dp"-->
+                    <!--android:layout_weight="2"-->
+                    <!--android:weightSum="3"-->
+                    <!--android:background="@drawable/background"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="0dp"-->
+                        <!--android:orientation="horizontal"-->
+                        <!--android:padding="10dp"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:elevation="5dp"-->
+                        <!--android:weightSum="100">-->
+
+
+                        <!--<TextView-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:textColor="#29263e"-->
+                            <!--android:textSize="20dp"-->
+                            <!--android:layout_weight="80"-->
+                            <!--android:layout_gravity="center_vertical"-->
+                            <!--android:text="7567294785" />-->
+
+                        <!--<ImageView-->
+                            <!--android:id="@+id/callsendy"-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="50dp"-->
+                            <!--android:padding="5dp"-->
+                            <!--android:layout_weight="20"-->
+                            <!--android:src="@drawable/call" />-->
+                    <!--</LinearLayout>-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="0dp"-->
+                        <!--android:orientation="horizontal"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:elevation="5dp"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:padding="10dp"-->
+                        <!--android:weightSum="100">-->
+
+
+                        <!--<TextView-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:textColor="#29263e"-->
+                            <!--android:textSize="20dp"-->
+                            <!--android:layout_weight="80"-->
+                            <!--android:layout_gravity="center_vertical"-->
+                            <!--android:text="hsanjay500@gmail.com" />-->
+
+                        <!--<ImageView-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="50dp"-->
+                            <!--android:padding="5dp"-->
+                            <!--android:layout_weight="20"-->
+                            <!--android:src="@drawable/editprofile" />-->
+                    <!--</LinearLayout>-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="0dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:orientation="horizontal"-->
+                        <!--android:padding="10dp"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:weightSum="100"-->
+                        <!--android:elevation="5dp">-->
+
+                        <!--<ImageView-->
+                            <!--android:layout_width="50dp"-->
+                            <!--android:layout_height="50dp"-->
+                            <!--android:padding="5dp"-->
+                            <!--android:layout_weight="20"-->
+                            <!--android:layout_marginLeft="10dp"-->
+                            <!--android:layout_marginStart="10dp"-->
+                            <!--android:src="@drawable/github" />-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/githubsendy"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:textColor="#2f31a6"-->
+                            <!--android:layout_marginLeft="10dp"-->
+                            <!--android:layout_marginStart="10dp"-->
+                            <!--android:layout_weight="80"-->
+                            <!--android:textSize="18dp"-->
+                            <!--android:text="www.github.com/sendy50" />-->
+                    <!--</LinearLayout>-->
+
+                <!--</LinearLayout>-->
+
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="0dp"-->
+                    <!--android:layout_weight="0.6"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:background="@drawable/edittext"-->
+                    <!--android:weightSum="100">-->
+
+                    <!--<ImageView-->
+                        <!--android:id="@+id/fbsendy"-->
+                        <!--android:layout_width="50dp"-->
+                        <!--android:layout_height="50dp"-->
+                        <!--android:padding="5dp"-->
+                        <!--android:layout_weight="20"-->
+                        <!--android:src="@drawable/faccebook" />-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="50dp"-->
+                        <!--android:layout_height="50dp"-->
+                        <!--android:padding="5dp"-->
+                        <!--android:layout_weight="20"-->
+                        <!--android:src="@drawable/twitter" />-->
+
+                    <!--<ImageView-->
+                        <!--android:id="@+id/instasendy"-->
+                        <!--android:layout_width="50dp"-->
+                        <!--android:layout_height="50dp"-->
+                        <!--android:padding="5dp"-->
+                        <!--android:layout_weight="20"-->
+                        <!--android:src="@drawable/insta" />-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="50dp"-->
+                        <!--android:layout_height="50dp"-->
+                        <!--android:padding="5dp"-->
+                        <!--android:layout_weight="20"-->
+                        <!--android:src="@drawable/pinterest" />-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="50dp"-->
+                        <!--android:layout_height="50dp"-->
+                        <!--android:padding="5dp"-->
+                        <!--android:layout_weight="20"-->
+                        <!--android:src="@drawable/linked_in" />-->
+
+                <!--</LinearLayout>-->
+
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+
+<!--</android.support.constraint.ConstraintLayout>-->
